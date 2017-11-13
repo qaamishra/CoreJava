@@ -1,0 +1,186 @@
+Reputation.com (formerly ReputationDefender) is a private online 
+
+reputation management (ORM) company based in Redwood City, 
+
+California. It provides software and services intended to push down 
+
+or remove negative information and create higher-ranking content 
+
+from a company or individual. It was founded in 2006 by Michael Fertik and obtained $67 million in funding.Contents  [hide] Corporate history
+
+2 Services
+
+3 Reception
+
+4 References
+
+5 External links
+
+Corporate history[edit] HelloAmTheVeryVeryVeryLongestWordFindMe
+
+Reputation.com was founded as ReputationDefender by a lawyer, 
+
+Michael Fertik,[1] in 2006.[2] According to Fertik, it was intended 
+
+to help parents after their children reveal too much online, but 
+
+most of his clients were young job-seekers.[3] By 2007 it had grown 
+
+to 55 employees and $2 million in revenue.[4] In January 2010, the 
+
+company changed its name from ReputationDefender to Reputation.com.
+
+[5] In 2011 it was named a Technology Pioneer by the World Economic 
+
+Forum for its effect on society.[6] The company has raised $67 
+
+million in venture capital.[7] As of 2012 it was not making a 
+
+profit.[8]
+
+Services[edit]
+
+Reputation.com is the most well-known online reputation management 
+
+company.[6][7] Its tactics and services vary from one client to 
+
+another and there are separate sets of products for consumers and 
+
+businesses respectively. It may generate monthly reports noting 
+
+changes in search results or ask websites to remove private 
+
+information.[9] In other cases it will generate websites and social 
+
+media profiles that are intended to rank higher in searches than 
+
+negative results. It may also refer some clients to lawyers.[4] The 
+
+company often begins by writing to the operators of websites hosting 
+
+negative content about the client, asking them to remove the 
+
+information.[1] According to the Wall Street Journal, the letters 
+
+"don't make threats... but instead try to appeal to recipients' 
+
+sense of fairness."[1] It generally cannot remove newspapers or 
+
+court records.[10]
+
+The company charges its customers at least $1000 a year for its 
+
+services.[11] In 2007 it introduced a $10,000 service for 
+
+executives.[12] Some of the companyís software includes scoring 
+
+systems used to identify consumer information and generate 
+
+reputation scores for individuals.[8] It has software that locates 
+
+websites where an individualís personal data is unknowingly listed 
+
+and attempt to get it de-listed. It can also track online reviews 
+
+and contact customers to solicit for positive reviews.[13]
+
+Reception[edit]
+
+In 2012, BusinessWeek noted that "Reputation.com scam" was an 
+
+autocompleted phrase when typing the company's name into the Google 
+
+search engine and that many unfavorable search results were hidden 
+
+
+
+
+on the second page of search results for the keyword 
+
+"Reputation.com".[7]
+
+According to The New York Times, Reputation.com is popular, but 
+
+controversial, due to its efforts to remove negative information 
+
+that may be of public interest.[8] According to Susan Crawford, a 
+
+cyberlaw specialist from Cardozo Law School, most websites will 
+
+remove negative content when contacted to avoid litigation.[2] The 
+
+Wall Street Journal noted that in some cases writing a letter to a 
+
+detractor can have un-intended consequences, though the company 
+
+makes an effort to avoid writing to certain website operators that 
+
+are likely to respond negatively.[1] The company's CEO says it 
+
+respects the First Amendment and does not try to remove "genuinely 
+
+newsworthy speech." It generally cannot remove major news stories 
+
+from established publications or court records.[2]
+
+In 2008, former A utoAdmit administrator Anthony Ciolli filed a 
+
+lawsuit against Reputation.com, among other defendants.[14][15] The 
+
+suit was in response to a lawsuit brought against Ciolli by two Yale 
+
+Law School students for being defamed on the Internet message board, 
+
+which is a forum for current and prospective law school students.
+
+[16] Ciolli claims to have lost a job offer as a result of negative 
+
+publicity from the original suit.[16]
+
+In a 2009 paper in the Harvard Journal of Law & Gender, law 
+
+professor Ann Bartow said Reputation.com exploited the harassment of 
+
+women on the internet for media attention.[17]
+
+Two months after the company was founded, ReputationDefender was 
+
+hired to remove online images of 18-year old Nikki Catsouras's 
+
+lethal car accident, which police said was leaked by an officer. The 
+
+company was able to get the images taken down on about 300 out of 
+
+400 websites. The New York Post said their effort was "surprisingly 
+
+effective" but raised concerns that its polite letters were 
+
+resulting in censorship of material offensive to their clients.[6]
+
+[18] Newsweek said it was ineffective. ReputationDefender said 
+
+removing the images was an "unwinnable battle".[19]
+
+Note: Consider following questions also as part of file content.
+
+Q1: Find total number of lines in file
+
+Q2: Find total number characters in file
+
+Q3: Print the longest line
+
+Q4: Find longest word file
+
+Q5: Most repeated word in file
+
+Using Selenium Webdriver: 
+
+1. Go to flipkart.com
+
+2. search for Samsung
+
+3. Click mobiles.
+
+4. Get the names of all the mobiles listed.
+
+   {if 'show more' link is found and click and proceed}

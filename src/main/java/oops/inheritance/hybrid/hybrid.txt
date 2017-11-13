@@ -1,0 +1,1 @@
+In simple terms you can say that Hybrid inheritance is a combination of Single and Multiple inheritance.
