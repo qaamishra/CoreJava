@@ -31,7 +31,7 @@ public class BalancedParenthesis {
     private static void startMatchhing(String exp) {
 		 
 		/* Creating Stack */
-        Stack<Integer> stk = new Stack<>();
+        Stack<Integer> stk = new Stack<Integer>();
         System.out.println("Parenthesis Matching Test\n");
 
         int len = exp.length();

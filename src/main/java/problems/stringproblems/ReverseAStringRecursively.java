@@ -1,4 +1,4 @@
-package problems.simple;
+package problems.stringproblems;
 
 
 // write code to print each char of a string without using for loop.

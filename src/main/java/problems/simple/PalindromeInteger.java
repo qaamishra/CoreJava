@@ -1,6 +1,6 @@
 package problems.simple;
 
-class Palindrome {
+class PalindromeInteger {
 
     public static void main(String args[]) {
 

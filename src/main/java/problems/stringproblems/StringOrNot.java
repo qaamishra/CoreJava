@@ -1,4 +1,4 @@
-package problems.datastructureproblems;
+package problems.stringproblems;
 
 /*
  * 

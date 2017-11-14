@@ -1,4 +1,4 @@
-package problems.simple;
+package problems.stringproblems;
 
 /**
  * Created by Ashutosh on 12-11-2017.
