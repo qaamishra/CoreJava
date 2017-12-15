@@ -24,7 +24,7 @@ public class InterfaceImpl implements MyInterface {
     public static void main(String[] args) throws Exception {
 
         try {
-            Class c = Class.forName("com.InterfaceTest.InterfaceImpl");
+            Class c = Class.forName("basics.classforname.InterfaceImpl");
             MyInterface i = (MyInterface) c.newInstance();
 
             i.add();
