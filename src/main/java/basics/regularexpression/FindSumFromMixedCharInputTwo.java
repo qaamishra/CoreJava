@@ -23,7 +23,7 @@ public class FindSumFromMixedCharInputTwo {
 
             boolean isIt = isItADigit(myString.charAt(i));
 
-            if (isIt == true) {
+            if (isIt) {
 
                 //Keep on forming a group
                 group = (group * 10) + Character.getNumericValue(myString.charAt(i));

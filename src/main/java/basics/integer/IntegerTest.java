@@ -8,7 +8,7 @@ public class IntegerTest {
     public static void main(String[] args) {
         Integer I1 = 127;
         Integer I2 = 127;
-        //-127 to +127 it will refer to same Interger pool after that a new object is created every time
+        //-127 to +127 it will refer to same Integer pool after that a new object is created every time
 
         Integer I3 = 129;
         Integer I4 = 129;
