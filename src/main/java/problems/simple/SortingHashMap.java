@@ -17,14 +17,14 @@ public class SortingHashMap {
         sortMe.put("A", 10);
 
         printMyMap(sortMe, "Before sorting");
-        printMyMap(sortTheMap(sortMe), "After sorting based on Key");//Ideally you always sort based on Key
+        printMyMap(sortByKey(sortMe), "After sorting based on Key");//Ideally you always sort based on Key
         printMyMap(sortByValues(sortMe), "After sorting based on Value");
 
     }
 
     private static Map sortByValues(Map<String, Integer> sortMe) {
         List list = new LinkedList(sortMe.entrySet());
-        // Collections.sort using comparator using the values
+        // Collections.sort using comparator with compareTo as values
         Collections.sort(list, new Comparator() {
             public int compare(Object o1, Object o2) {
                 return ((Comparable) ((Map.Entry) (o1)).getValue()).compareTo(((Map.Entry) (o2)).getValue());
@@ -32,7 +32,7 @@ public class SortingHashMap {
         });
 
 
-        Map sortedHashMap = new LinkedHashMap();//preserve the insertion order
+        Map sortedHashMap = new LinkedHashMap();//To preserve the insertion order
         for (Iterator it = list.iterator(); it.hasNext(); ) {
             Map.Entry entry = (Map.Entry) it.next();
             sortedHashMap.put(entry.getKey(), entry.getValue());
@@ -40,7 +40,7 @@ public class SortingHashMap {
         return sortedHashMap;
     }
 
-    private static Map sortTheMap(Map<String, Integer> sortMe) {
+    private static Map sortByKey(Map<String, Integer> sortMe) {
 
         return new TreeMap<String, Integer>(sortMe);
     }
