@@ -20,11 +20,13 @@ public class CollectionsDemo {
         Collections.sort(list);
         System.out.println("asc sort : "+list);
 
+        int serach=Collections.binarySearch(list,63);//To use binary search list should be sorted in ascending order then it will return the postion of the key element
+        System.out.println(serach);
+
         Collections.sort(list,Collections.reverseOrder());
         System.out.println("desc sort "+list);
 
-        int serach=Collections.binarySearch(list,2);
-        System.out.println(serach);
+
 
         int maxValueInList = (Collections.max(list));
         System.out.println("maxValueInList "+maxValueInList);
