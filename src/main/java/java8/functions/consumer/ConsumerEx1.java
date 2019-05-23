@@ -21,6 +21,7 @@ public class ConsumerEx1 {
     public static void printList(List<Integer> listOfIntegers, Consumer<Integer> consumer) {
         for (Integer integer : listOfIntegers) {
             consumer.accept(integer);
+
         }
     }
 }

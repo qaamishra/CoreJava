@@ -19,12 +19,10 @@ import java.util.stream.Stream;
 public class SupplierEx1 {
 
     public static void main(String[] args) {
-        List<String> strings =Arrays.asList("d2", "a2", "b1", "b3", "c");
+        List<String> strings = Arrays.asList("d2", "a2", "b1", "b3", "c");
 
         System.out.println(SupplierTest(strings));
-
-
-        IntSupplier intSupplier=()-> IntStream.of(4,5).sum();
+        IntSupplier intSupplier = () -> IntStream.of(4, 5).sum();
         System.out.println(intSupplier.getAsInt());
 
     }
@@ -37,7 +35,7 @@ public class SupplierEx1 {
                         .filter(s -> s.startsWith("a"));
 
         //Here the get method is fetching returns from supplier
-       return streamSupplier.get().anyMatch(s -> true);
+        return streamSupplier.get().anyMatch(s -> true);
 
     }
 

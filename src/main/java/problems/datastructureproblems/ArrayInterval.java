@@ -40,6 +40,7 @@ The entire list is an increasing run, and has length 4.
 Each element is a run on its own, so we return 1.
  * 
  * */
+
 public class ArrayInterval {
 
 

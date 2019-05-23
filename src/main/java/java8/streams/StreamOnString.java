@@ -4,6 +4,7 @@ package java8.streams;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 
 public class StreamOnString {
 
@@ -30,8 +31,10 @@ public class StreamOnString {
         System.out.println(noneStartsWithT);
 
         System.out.println("------------\n toUpperCase \n ------------ ");
+        Function<String,String> stringStringFunction= String::toUpperCase;
+
         Arrays.asList("a1", "a2", "b1", "c2", "c1").stream()
-                .filter(s -> s.startsWith("c")).map(String::toUpperCase).sorted()
+                .filter(s -> s.startsWith("c")).map(stringStringFunction).sorted()
                 .forEach(System.out::println);
 
     }

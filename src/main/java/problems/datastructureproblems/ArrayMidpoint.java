@@ -7,7 +7,8 @@ package problems.datastructureproblems;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ArrayMidpoint {
+public class
+ArrayMidpoint {
     static int values[] = {-3, 3, 8, -4, 2, 2};
     //static int values[] = {-3, 3,2,-2,8, -4, 2, 2};
     //static int values[] = {-3, 3,2,-2, 10,12,8, -4, 2, 2};

@@ -1,15 +1,27 @@
 package java8.streams;
 
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.function.Consumer;
 import java.util.stream.IntStream;
 
 public class IntegerStream {
     public static void main(String[] args) {
 
+        /*
+        //Compilation Error !!
+        IntStream.of(1,2,3,4,5).collect(Collectors.toList());
+        To convert a stream of primitives, you must first box the elements in their wrapper class and then collect them.
+        This type of stream in called boxed stream.
+        */
         //Numbers divisible by 2
-        IntStream.range(2, 20).boxed().forEach(i -> {
+        Consumer<Integer> consumer = i -> {
             if (i % 2 == 0) System.out.print(i + " ");
-        });
+        };
+
+        IntStream.range(2, 20).boxed().forEach(consumer);
+        /*IntStream.range(2, 20).boxed().forEach(i -> {
+            if (i % 2 == 0) System.out.print(i + " ");
+        });*/  //Everything inside foreach can be put into consumer
 
         System.out.println("\n-------------");
         IntStream.of(1, 2, 3).boxed().forEach(val -> System.out.print(val + " "));

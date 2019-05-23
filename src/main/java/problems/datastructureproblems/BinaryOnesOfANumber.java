@@ -5,7 +5,7 @@ package problems.datastructureproblems;
  */
 
 /**
- * Given A=3 and B=7 ,the function should return 3, because the inary representation of 21 is 10101 and it contains 3 bits
+ * Given A=3 and B=7 ,the function should return 3, because the Binary representation of 21 is 10101 and it contains 3 bits
  */
 public class BinaryOnesOfANumber {
 

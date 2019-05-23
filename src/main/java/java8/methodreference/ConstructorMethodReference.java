@@ -14,5 +14,9 @@ public class ConstructorMethodReference {
         List<Integer> list=IntStream.range(5,25).boxed().collect(Collectors.toCollection(ArrayList::new));
 
         list.forEach(System.out::println);
+
+        list.forEach(i -> {
+            if (i % 5 == 0) System.out.print(i + " divisible by 5 \n");
+        });
     }
 }
