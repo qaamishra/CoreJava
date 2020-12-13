@@ -9,12 +9,15 @@ public class WideningPrimitiveConversion {
 
     public static void main(String[] args) {
         System.out.print("Y" + "O");
+        System.out.println("\n=====");
         System.out.print('P' + 'Q');
 
-        System.out.println("\n\n==============================================");
+        System.out.println("\n\n================");
 
         System.out.print("Y" + "O");
+        System.out.println("\n=====");
         System.out.print('P');
+        System.out.println("\n=====");
         System.out.print('Q');
 
         //Explanation: This will now print �YOLO� instead of �YO7679�. It is because the widening primitive conversion happens only when �+� operator is present.
