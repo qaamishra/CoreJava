@@ -7,6 +7,9 @@ import java.util.Comparator;
  */
 public class NameComparator implements Comparator<Employee> {
 
+    /*
+    Comparator interface is used to order the objects of user-defined classes. A comparator object is capable of comparing two objects of two different classes
+     */
     @Override
     public int compare(Employee e1, Employee e2) {
 

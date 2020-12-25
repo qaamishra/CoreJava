@@ -6,7 +6,7 @@ import java.util.function.ToDoubleFunction;
 import java.util.function.ToIntFunction;
 import java.util.function.ToLongFunction;
 
-public class Intcomparator implements Comparator<Integer> {
+public class IntComparator implements Comparator<Integer> {
     @Override
     public int compare(Integer o1, Integer o2) {
         if(o1<o2) return 1;//if(o1<o2) return 1; //if(o1%10>o2%10) return 1;//if(o1%100>o2%100) return 1;

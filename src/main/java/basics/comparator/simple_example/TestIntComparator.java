@@ -13,7 +13,7 @@ public class TestIntComparator {
         List<Integer> list=new ArrayList<>();
         list.addAll(Arrays.asList(10,19,71,78,95,42,63,58,42,69,81));
 
-        Collections.sort(list,new Intcomparator());
+        Collections.sort(list,new IntComparator());
 
         System.out.println(list);
     }
